@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#wrapper{
+    background-color: #A0A5A2;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 8px 8px 7px black;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    margin-right: 60px;
+}
+
+label{
+   position: relative;
+   top: 22px;
+   left: 10px;
+   font-size: 17px;
+    font-weight: bold;
+    
+}
+#computeNow{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: #06923E;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#user{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+    background-color:#0F6F0C;
+    
+}
+#result::before{
+    content: "Result: ";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+#result{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#ok{
+    margin-top: 10px;
+    
+}
+
+

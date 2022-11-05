@@ -1,0 +1,68 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculate your Salary</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        
+        <div id="wrapper">
+           
+           <div id="container">
+           <form id="Myform">
+            <h1>Compute your expenses and see if how much you can save after you buy some stuff.</h1>
+            <div id="name">
+                <input id="fullname" type="text" placeholder="Full name">
+            </div>
+            
+             <div id="income">
+              <label for="daily">Your daily income</label>
+               <input id="daily" type="text">
+               </div>
+               
+               <div id="daysofwork">
+                <label for="days">how many days you work?</label>
+               <input id="days" type="number">
+               </div>
+               
+               <div id="totalgroceries">
+                   <label for="groceries">Total of your groceries</label>
+                   <input id="groceries">
+               </div>
+               <div id="extra">
+                   <label for="extraexpenses">Extra Expenses</label>
+                   <input id="extraexpenses">
+               </div>
+               
+               <div id="computeNow">
+                  <button type="button" id="compute">Compute</button>  
+               </div>
+               <div id="result">
+                <div id="user"></div>
+                  <p>Your Balance is </p>
+                   <span id="total">0.00</span>&nbsp;Pesos
+                   <div>
+                   <button type="button" onclick="fun()" id="ok">Thank You!</button>
+                   </div>
+               </div>
+               </form>
+               
+               
+           </div>
+           
+            <script type="text/javascript" src="script.js">
+            
+            </script>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
